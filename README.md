@@ -74,8 +74,8 @@ running with a new project in no time. It provides:
 
 ## Quickstart
 
-- Clone the repo `git clone git@github.com:xddq/nodejs-typescript-modern-starter`
-- Remove the .git folder `cd nodejs-typescript-modern-starter && rm -rf .git`
+- Clone the repo `git clone git@github.com:nihalpandey4/backend-setup-node`
+- Remove the .git folder `cd backend-setup-node && rm -rf .git`
 - (optional) Update the package.json name, author, keywords, etc..
 - Set up your own git folder and create your first commit. Run `git init && git
 add . && git commit -am "initial commit"`
@@ -186,7 +186,7 @@ newer features of the language.
 
 However, I made it **dead simple** to enable the default/recommended eslint
 rules, if you want to use them instead. Everything is documented, just browse to
-[./.eslintrc.cjs](https://github.com/xddq/nodejs-typescript-modern-starter/blob/main/.eslintrc.cjs)
+[./.eslintrc.cjs](https://github.com/xddq/backend-setup-node/blob/main/.eslintrc.cjs)
 and adapt the code.
 
 ## Automated Dependency Updates
