@@ -6,18 +6,18 @@ This minimal and modern starter repo is here to help you get started with
 Node.js and Typecript without the pain.
 
 ## components/ goals
-1.  [x]setup basic TS and node boiler plate 
-2.  []Api server setup with graceful shutdown
-3.  []Api versioning setup
-4.  []CORS handling
-5.  []mysql db connection using sequelize ORM
-6.  []Mongo db connection using mongoose
-7.  []DAL layer for interacting with mysql or mongoose or any other db related functions even redis
-8.  []Redis setup
-9.  []Swagger setup
-10. [x]Test case setup using jest
-11. []Logger for different levels - info, error, warning, debug using winston
-12. []Sentry for error alerting and profiling / New Relic
+1.  -[x] setup basic TS and node boiler plate 
+2.  -[ ] Api server setup with graceful shutdown
+3.  -[ ] Api versioning setup
+4.  -[ ] CORS handling
+5.  -[ ] mysql db connection using sequelize ORM
+6.  -[ ] Mongo db connection using mongoose
+7.  -[ ] DAL layer for interacting with mysql or mongoose or any other db related functions even redis
+8.  -[ ] Redis setup
+9.  -[ ] Swagger setup
+10. -[x] Test case setup using jest
+11. -[ ] Logger for different levels - info, error, warning, debug using winston
+12. -[ ] Sentry for error alerting and profiling / New Relic
 
 ## Overview
 
