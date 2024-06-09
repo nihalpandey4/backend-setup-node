@@ -19,6 +19,7 @@ Node.js and Typecript without the pain.
 11. -[ ] Logger for different levels - info, error, warning, debug using winston
 12. -[ ] Sentry for error alerting and profiling / New Relic
 
+
 ## Overview
 
 This starter uses a bare-bones and minimal approach to get anyone up and
