@@ -6,7 +6,7 @@ This minimal and modern starter repo is here to help you get started with
 Node.js and Typecript without the pain.
 
 ## components/ goals
-1.  [x]setup basic TS and node boiler plate 
+1. -[x] setup basic TS and node boiler plate 
 2.  []Api server setup with graceful shutdown
 3.  []Api versioning setup
 4.  []CORS handling
