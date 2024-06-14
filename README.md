@@ -1,4 +1,5 @@
 # Node.js Typescript Modern Starter
+
 How to setup a production level node project for backend
 While developing with Typescript and Node.js is awesome, **setting up a new
 project is painful**.
@@ -6,7 +7,8 @@ This minimal and modern starter repo is here to help you get started with
 Node.js and Typecript without the pain.
 
 ## components/ goals
-1.  -[x] setup basic TS and node boiler plate 
+
+1.  -[x] setup basic TS and node boiler plate
 2.  -[ ] Api server setup with graceful shutdown
 3.  -[ ] Api versioning setup
 4.  -[ ] CORS handling
@@ -18,7 +20,6 @@ Node.js and Typecript without the pain.
 10. -[x] Test case setup using jest
 11. -[ ] Logger for different levels - info, error, warning, debug using winston
 12. -[ ] Sentry for error alerting and profiling / New Relic
-
 
 ## Overview
 
@@ -45,26 +46,6 @@ running with a new project in no time. It provides:
 - Automated dependency updates via
   [renovate](https://github.com/renovatebot/renovate).
 - Using the current LTS, nodejs 20
-
-#### Project Goals
-
-- Help you to just **get started** with a Node.js Typescript setup and **not
-  worry about configuration**.
-- All scripts compatible with linux, macos and windows.
-- No magic. Everything kept as simple as possible while configuring anything you
-  might need.
-- Advocate for **testing your code**. The common approaches of _tests and code
-  side by side_ as well as _all tests in a seperate folder_ already working and
-  set up for you.
-- Advocate for **using CI/CD** (in this case Github Actions). Automatically
-  check formatting, check linting, compile and test the code base. Everything running
-  on each PR.
-- Advocate establishing best practices via linting rules using eslint and
-  typescript-eslint. However, still giving a documented way to quickly and
-  easily disable them, if that is preferred.
-- Use modern tools like esbuild, typescript 5 and the nodejs test runner.
-- Be open for any framework or library that you prefer. This setup should be
-  useful to everyone. You can easily add your preferred packages in no time.
 
 ## Prerequisites
 
@@ -200,3 +181,25 @@ mimic the approach used in this repo, you should set up:
 - the repo setting to allow auto-merge
 - a branch protection rule for the main branch to require approval (will be
   handled via renovate-approve)
+
+
+## Folder structure followed inside src/
+- src
+-- index.ts
+---- apis
+-------- <entity name>
+---------- index.ts
+------------ <version>
+-------------- index.ts
+-------------- <controller>
+-------------- <service/helper> 
+---- databases
+------ models
+-------- index.js
+-------- <entity_name.model.js>
+------ services
+---- utilities
+------ logger 
+---- config
+------ index.js
+---- middlewares
