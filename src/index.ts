@@ -8,6 +8,13 @@ const main = () => {
     });
   });
 
+  process.on("SIGINT",()=>{
+    server.close(()=>{
+      console.log("server is closed")
+    });
+  });
+
+
 };
 
 // This was just here to force a linting error for now to demonstrate/test the
