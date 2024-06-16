@@ -1,11 +1,10 @@
 import express from "express";
 import logger from "./utilities/logger";
+import router from "./routes";
 
 const server = express();
 
-server.get("/",(_,res)=>{
-    res.status(200).json({message: "server up"})
-})
+server.use("/",router);
 
 const PORT = process.env.PORT;
 
